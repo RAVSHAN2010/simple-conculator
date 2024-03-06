@@ -6,7 +6,7 @@ Console.Write("birinchi soni kriting = ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("ikkinchi soni kriting = ");
 int b = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(" + , -, *, /");
+Console.WriteLine(" + ; - ; * ; / ");
 string c = Convert.ToString(Console.ReadLine());
 if(c == "+")
 {
@@ -24,13 +24,12 @@ if(c == "/")
 {
     Console.WriteLine(a / b);
 }
-Console.WriteLine("Do you want to continue? yes or no");
+Console.WriteLine("agar davom ettirmoqchi bulsangiz ha tuxtatmoqchi bulasangiz yuq");
 string d = Convert.ToString(Console.ReadLine());
 if (d == "ha")
 {
-    goto Hi;
+   goto Hi; 
 }
-else if(d == "yuq")
-{
-    Console.WriteLine("ok");
+else if(d =="yuq "){
+    System.Console.WriteLine("hayr");
 }
